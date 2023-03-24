@@ -1,0 +1,45 @@
+#nome {
+    font-family: initial;
+    background-color: green;
+    color: white;
+    font-weight: 600;
+    line-height: 70px;
+    text-align: center;
+    letter-spacing: 2px;
+    padding: 15px 30px;
+    border-radius: 100px;
+    border-width: 10%;
+    width: 30%;
+}
+
+#texto {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15;
+}
+
+#minhafoto {
+    background-color: aquamarine;
+    border-radius: 50%;
+    height: 100%;
+    text-align: center;
+    border-color: green;
+}
+
+#opcoes {
+    border-style: solid;
+    border-radius: 60%;
+    width: 15%;
+}
+
+.mudan {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.lista {
+    font-size: 20px;
+}
+
+body {
+    background-color: rgb(221, 200, 64);
+}
