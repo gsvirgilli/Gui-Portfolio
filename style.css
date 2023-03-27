@@ -1,26 +1,16 @@
-#minhafoto {
-    background-color: aquamarine;
-    border-style: solid;
-    border-radius: 50%;
-    height: 100%;
-    text-align: center;
-    border-color: black;
-}
 #header {
     padding: 10px;
 }
 
 .nome {
     text-align: center;
-    width: 100%;
-    font-weight: 100%;
+    font-size: 90px;
     border-radius: 50px;
-    background-color:green;
+    background-color: green;
     color: white;
     border-style: solid;
     border-top: none;
     border-left: none;
-    font-size:60px ;
     border-width: 10px;
 }
 
@@ -31,18 +21,17 @@
     padding: 1.1%;
 }
 
-.lista {
-    font-size: 20px;
-}
-
 body {
     background-color: rgb(221, 200, 64);
+    font-family: 'Montserrat', sans-serif;
+
 }
+
 .buttom {
-    text-decoration:none;
+    text-decoration: none;
     background-color: green;
     color: white;
-    font-size:100%;
+    font-size: 100%;
     padding: 2%;
     width: 45%;
     border-radius: 50px;
@@ -55,6 +44,9 @@ body {
 .fundoV {
     background-color: green;
     color: white;
+    padding: 20px;
+    border-radius: 150px;
+    width: 50%;
 
 }
 
@@ -64,7 +56,24 @@ a:hover {
 }
 
 .paragrafo {
-    color:white;
+    color: white;
     background-color: green;
-    
+
+}
+
+div ol li:nth-of-type(even) {
+    font-style: italic;
+}
+
+p {
+    font-size: 22px;
+    color: #323f3a;
+}
+
+ol li {
+    text-align:justify;
+}
+
+ol {
+    text-align: center;
 }
