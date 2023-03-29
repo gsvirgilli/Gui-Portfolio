@@ -1,0 +1,70 @@
+#minhafoto {
+    background-color: aquamarine;
+    border-style: solid;
+    border-radius: 50%;
+    height: 100%;
+    text-align: center;
+    border-color: black;
+}
+#header {
+    padding: 10px;
+}
+
+.nome {
+    text-align: center;
+    width: 100%;
+    font-weight: 100%;
+    border-radius: 50px;
+    background-color:green;
+    color: white;
+    border-style: solid;
+    border-top: none;
+    border-left: none;
+    font-size:60px ;
+    border-width: 10px;
+}
+
+.Posision {
+    text-align: center;
+    display: inline-block;
+    width: 45%;
+    padding: 1.1%;
+}
+
+.lista {
+    font-size: 20px;
+}
+
+body {
+    background-color: rgb(221, 200, 64);
+}
+.buttom {
+    text-decoration:none;
+    background-color: green;
+    color: white;
+    font-size:100%;
+    padding: 2%;
+    width: 45%;
+    border-radius: 50px;
+    border-width: 10px;
+    border-style: solid;
+    border-top: none;
+    border-left: none;
+}
+
+.fundoV {
+    background-color: green;
+    color: white;
+
+}
+
+a:hover {
+    background-color: white;
+    color: green;
+}
+
+.paragrafo {
+    color:white;
+    background-color: green;
+    
+}
