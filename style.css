@@ -1,79 +1,57 @@
-#header {
+body {
+    font-family: 'Courier New', Courier, monospace;
+    border: 30px;
     padding: 10px;
+    margin: 20px;
 }
 
-.nome {
+h1 {
+    text-decoration: underline;
+    background-color:aquamarine;
     text-align: center;
-    font-size: 90px;
-    border-radius: 50px;
-    background-color: green;
-    color: white;
-    border-style: solid;
-    border-top: none;
-    border-left: none;
-    border-width: 10px;
+    padding: 5px;
+    width: 50%;
 }
 
-.Posision {
+a {
+    text-decoration: none;
+}
+
+#cabecalho {
+    text-align: center;
+    text-decoration: none;
+}
+
+#fotol {
+    text-align: center;
+    display:inline-block;
+    width: 35%;
+}
+
+#sobremim {
     text-align: center;
     display: inline-block;
-    width: 45%;
-    padding: 1.1%;
+    width: 35%;
 }
 
-body {
-    background-color: rgb(221, 200, 64);
-    font-family: 'Montserrat', sans-serif;
-
+#artigo1 {
+    text-align: center;
 }
 
-.buttom {
-    text-decoration: none;
-    background-color: green;
-    color: white;
-    font-size: 100%;
-    padding: 2%;
-    width: 45%;
-    border-radius: 50px;
-    border-width: 10px;
-    border-style: solid;
-    border-top: none;
-    border-left: none;
+#artigo2 {
+    text-align: center;
 }
 
-.fundoV {
-    background-color: green;
-    color: white;
-    padding: 20px;
-    border-radius: 150px;
-    width: 50%;
-
+#minhasH {
+    display: inline-block;
+    width: 35%;
 }
 
-a:hover {
-    background-color: white;
-    color: green;
+#outrasH {
+    display: inline-block;
+    width: 35%;
 }
 
-.paragrafo {
-    color: white;
-    background-color: green;
-
-}
-
-div ol li:nth-of-type(even) {
-    font-style: italic;
-}
-
-p {
-    font-size: 22px;
-    color: #323f3a;
-}
-
-ol li {
-    text-align:justify;
-}
-
-ol {
+#rodape {
     text-align: center;
 }
